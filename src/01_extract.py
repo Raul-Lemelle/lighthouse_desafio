@@ -43,14 +43,14 @@ if __name__ == "__main__":
     load_dotenv()
 
     # Obter caminhos do arquivo zip e do diretório de extração das variáveis de ambiente
-    zip_path = os.getenv('ZIP_PATH')
-    extract_path = os.getenv('EXTRACT_PATH')
+    zip_path = os.getenv('BRONZE_PATH')
+    extract_path = os.getenv('SILVER_PATH')
 
     # Verificar se as variáveis de ambiente foram carregadas corretamente
     if not zip_path:
-        raise ValueError("A variável de ambiente ZIP_PATH não está definida.")
+        raise ValueError("A variável de ambiente BRONZE_PATH não está definida.")
     if not extract_path:
-        raise ValueError("A variável de ambiente EXTRACT_PATH não está definida.")
+        raise ValueError("A variável de ambiente SILVER_PATH não está definida.")
 
     # Chamar a função para extrair o arquivo zip
     extract_zip_file(zip_path, extract_path)

@@ -27,7 +27,7 @@ if __name__ == "__main__":
     load_dotenv()
 
     # Caminho para a pasta que contém os arquivos CSV
-    directory = os.getenv('DIRECTORY')
+    silver_path = os.getenv('SILVER_PATH')
     
     # Chamada da função para visualizar os dataframes 
-    DATAFRAMES = load_and_display_data(directory)
+    DATAFRAMES = load_and_display_data(silver_path)
