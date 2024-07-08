@@ -4,7 +4,7 @@
 
 Este projeto visa realizar uma análise de dados detalhada para o Banco Vitória (BanVic), a fim de gerar insights valiosos e melhorar a eficiência operacional e a experiência do cliente.
 
-Link Relatório de Análise de Dados BanVic: https://github.com/Raul-Lemelle/lighthouse_desafio/blob/main/reports/relatorio_analise_de_dados_banvic.pdf
+Link para o [Relatório de Análise de Dados BanVic](https://github.com/Raul-Lemelle/lighthouse_desafio/blob/main/reports/relatorio_analise_de_dados_banvic.md).
 
 ## Estrutura do Projeto
 
@@ -19,4 +19,4 @@ Link Relatório de Análise de Dados BanVic: https://github.com/Raul-Lemelle/lig
 ## Configuração
 
 1. Clone este repositório.
-2. Instale as dependências:
+2. Instale as dependências.
